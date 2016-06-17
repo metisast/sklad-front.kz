@@ -1,0 +1,26 @@
+/* Main styles */
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=latin,cyrillic);
+
+h1,h2,h3,h4,h5,h6,p,a,td,tr,table,div,span{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#header{
+    margin-top: 40px;
+    border: 1px solid #e0e0e0;
+}
+.logo{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.logo-slogan{
+    font-size: 18px;
+}
+.auth li a{
+    font-size: 14px;
+    color: #333;
+    text-decoration: underline;
+}
