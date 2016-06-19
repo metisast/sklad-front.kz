@@ -1,11 +1,4 @@
 /* Main styles */
-
-@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=latin,cyrillic);
-
-h1,h2,h3,h4,h5,h6,p,a,td,tr,table,div,span{
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-
 #header{
     margin-top: 40px;
     border: 1px solid #e0e0e0;
