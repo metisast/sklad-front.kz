@@ -1,19 +1,142 @@
 /* Main styles */
-#header{
-    margin-top: 40px;
-    border: 1px solid #e0e0e0;
+
+.wrapper{
+    width: 1140px;
+    margin: 40px auto 0 auto;
 }
+/* Header */
+#header{
+    border: 1px solid #e0e0e0;
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+}
+/* Logo */
 .logo{
-    text-transform: uppercase;
-    font-weight: bold;
+    float: left;
+    margin: 30px 0 0 30px;
+}
+.logo-title{
     font-size: 48px;
-    margin-bottom: 0;
+    font-weight: bold;text-transform: uppercase;
 }
 .logo-slogan{
     font-size: 18px;
 }
-.auth li a{
+/* Auth links */
+.auth-links{
+    text-align: right;
+    margin: 30px 30px 0 0;
+}
+.auth-links-list li{
+    float: left;
+    margin-left: 30px;
+    height: 20px;
+    line-height: 20px;
+}
+.auth-links-list li a{
     font-size: 14px;
+}
+.auth-links-list .fa{
+    font-size: 18px;
+}
+.auth-links-list .fa-search{
+    color: #aaa;
+}
+.auth-links-list .fa-key{
+    color: #4caf50;
+}
+.auth-links-list .fa-credit-card{
+    color: #ff9800;
+}
+/* Filter */
+#filter{
+    width: 100%;
+    margin-top: 20px;
+}
+.tabs {
+    width: 600px;
+    background: #EFEFEF;
+    margin: 0 0 30px;
+}
+.tabs__caption {
+    height: 28px;
+    line-height: 25px;
+    list-style: none;
+    border-bottom: 1px solid #DDD;
+    background: #FFF;
+}
+.tabs__caption li {
+    float: left;
+    display: inline;
+    margin: 0 1px -1px 0;
+    padding: 0 13px 1px;
+    color: #777;
+    cursor: pointer;
+    background: #F9F9F9;
+    border: 1px solid #E4E4E4;
+    border-bottom: 1px solid #F9F9F9;
+    position: relative;
+}
+.tabs__caption li:hover,
+.vertical .tabs__caption li:hover {
+    color: #F70;
+    padding: 0 13px;
+    background: #FFFFDF;
+    border: 1px solid #FFCA95;
+}
+.tabs__caption .active {
+    color: #444;
+    background: #EFEFEF;
+    padding: 0 13px 2px;
+    border: 1px solid #D4D4D4;
+    border-bottom: 1px solid #EFEFEF;
+}
+.tabs__content {
+    display: none;
+    border: 1px solid #D4D4D4;
+    border-width: 0 1px 1px;
+    background: #EFEFEF;
+    padding: 0 12px;
+}
+.tabs__content.active {
+    display: block;
+}
+
+
+/* Others */
+.clear{
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.bold{
+    font-weight: bold;
+}
+.ad{
+    margin-top: 15px;.
+    text-align: center;
+}
+.ad a{
+    border: 1px solid #ff9800;
+    border-radius: 3px;
+    display: block;
+    padding: 10px 20px;
     color: #333;
-    text-decoration: underline;
+}
+.ad .fa-plus{
+    color: #ff9800;
+    margin-right: 10px;
+}
+.ad:hover a{
+    text-decoration: none;
+    color: #fff;
+    background: #ff9800;
+}
+.ad:hover .fa-plus{
+    color: #fff;
 }
